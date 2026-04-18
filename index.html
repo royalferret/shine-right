@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShineRight Detailing</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="lp">
+
+  <nav class="nav">
+    <span class="nav-logo">ShineRight Detailing</span>
+    <button class="nav-cta">Get a quote</button>
+  </nav>
+
+  <div class="hero">
+    <h1>Your car, looking brand new — guaranteed</h1>
+    <p>Mobile detailing that comes to you. No drop-offs, no waiting. Serving the greater Haddonfield area since 2019.</p>
+    <button class="hero-btn">Book a detail today</button>
+    <p class="hero-sub">Free estimates — no commitment required</p>
+  </div>
+
+  <div class="trust">
+    <div class="trust-item"><div class="trust-dot"></div>500+ happy customers</div>
+    <div class="trust-item"><div class="trust-dot"></div>5-star rated on Google</div>
+    <div class="trust-item"><div class="trust-dot"></div>Eco-friendly products</div>
+    <div class="trust-item"><div class="trust-dot"></div>Insured & licensed</div>
+  </div>
+
+  <div class="section">
+    <div class="section-label">What we offer</div>
+    <div class="section-title">Services & pricing</div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🚿</div>
+        <div class="service-name">Basic Wash</div>
+        <div class="service-desc">Exterior hand wash, tire shine, windows cleaned</div>
+        <div class="service-price">From $49</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">✨</div>
+        <div class="service-name">Interior Detail</div>
+        <div class="service-desc">Full vacuum, wipe-down, odor treatment</div>
+        <div class="service-price">From $89</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🏆</div>
+        <div class="service-name">Full Detail</div>
+        <div class="service-desc">Inside and out full restoration</div>
+        <div class="service-price">From $149</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="section-label">About us</div>
+    <div class="section-title">Family-owned, locally run</div>
+
+    <div class="about-inner">
+      <div class="about-avatar">MK</div>
+      <div class="about-text">
+        <h3>Mike Kowalski, Owner</h3>
+        <p>Started ShineRight in my driveway. We've detailed over 500 vehicles across South Jersey.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Reviews</div>
+    <div class="section-title">What customers say</div>
+
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Looked better than the day I bought it.</div>
+        <div class="review-name">Sarah T.</div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Super convenient mobile service.</div>
+        <div class="review-name">James R.</div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Best detailing in the area.</div>
+        <div class="review-name">Lisa M.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h2>Ready to book?</h2>
+    <p>Call, text, or email — same day response.</p>
+
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="contact-label">Phone</div>
+        <div class="contact-value">(856) 555-0142</div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-label">Email</div>
+        <div class="contact-value">mike@shineright.com</div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-label">Hours</div>
+        <div class="contact-value">Mon–Sat 8am–6pm</div>
+      </div>
+    </div>
+
+    <button class="contact-btn">Send us a message</button>
+  </div>
+
+  <div class="footer">
+    © 2025 ShineRight Detailing · Haddonfield, NJ
+  </div>
+
+</div>
+
+<!-- MODAL -->
+<div id="bookingModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModal">&times;</span>
+
+    <h2>Book Your Detail</h2>
+
+    <form id="bookingForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="text" placeholder="Car Make / Model" required>
+
+      <select required>
+        <option value="">Select Service</option>
+        <option>Basic Wash</option>
+        <option>Interior Detail</option>
+        <option>Full Detail</option>
+      </select>
+
+      <input type="date" required>
+
+      <button type="submit">Request Booking</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

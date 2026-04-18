@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.lp {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.nav-cta,
+.hero-btn,
+.contact-btn {
+  background: #1D9E75;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  background: #E1F5EE;
+  text-align: center;
+  padding: 50px 24px;
+}
+
+/* SERVICES */
+.section {
+  padding: 40px 24px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* CONTACT */
+.contact {
+  background: #085041;
+  color: white;
+  text-align: center;
+  padding: 40px 24px;
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.modal-content input,
+.modal-content select {
+  width: 100%;
+  margin: 6px 0;
+  padding: 8px;
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+}
